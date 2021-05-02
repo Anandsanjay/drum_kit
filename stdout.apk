@@ -1,0 +1,173 @@
+[  +76 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +43 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] adc687823a831bbebe28bdccfac1a628ca621513
+[   +2 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git tag --points-at adc687823a831bbebe28bdccfac1a628ca621513
+[ +111 ms] Exit code 0 from: git tag --points-at adc687823a831bbebe28bdccfac1a628ca621513
+[   +1 ms] 2.0.5
+[  +47 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] origin/stable
+[        ] executing: [/Users/sanjaypopuri/Developer/flutter/] git ls-remote --get-url origin
+[   +9 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[  +43 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git rev-parse --abbrev-ref HEAD
+[  +10 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] stable
+[   +5 ms] executing: sw_vers -productName
+[  +13 ms] Exit code 0 from: sw_vers -productName
+[        ] Mac OS X
+[        ] executing: sw_vers -productVersion
+[  +12 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 10.15.7
+[        ] executing: sw_vers -buildVersion
+[  +11 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 19H15
+[   +5 ms] executing: sysctl hw.optional.arm64
+[   +4 ms] Exit code 1 from: sysctl hw.optional.arm64
+[        ] sysctl: unknown oid 'hw.optional.arm64'
+[  +38 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +45 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +57 ms] Skipping pub get: version match.
+[  +22 ms] Found plugin audioplayers at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.18.3/
+[  +33 ms] Found plugin path_provider at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.1/
+[   +2 ms] Found plugin path_provider_linux at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0/
+[   +2 ms] Found plugin path_provider_macos at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.0/
+[   +4 ms] Found plugin path_provider_windows at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.1/
+[ +110 ms] Found plugin audioplayers at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.18.3/
+[  +12 ms] Found plugin path_provider at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.1/
+[   +1 ms] Found plugin path_provider_linux at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0/
+[   +1 ms] Found plugin path_provider_macos at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.0/
+[   +3 ms] Found plugin path_provider_windows at /Users/sanjaypopuri/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.1/
+[  +28 ms] Generating /Users/sanjaypopuri/AndroidStudioProjects/drum_kit/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +23 ms] executing: sysctl hw.optional.arm64
+[   +4 ms] Exit code 1 from: sysctl hw.optional.arm64
+[        ] sysctl: unknown oid 'hw.optional.arm64'
+[        ] executing: xcrun xcodebuild -version
+[ +754 ms] Exit code 0 from: xcrun xcodebuild -version
+[        ] Xcode 11.6
+           Build version 11E708
+[  +43 ms] Building without sound null safety
+[        ] For more information see https://dart.dev/null-safety/unsound-null-safety
+[  +20 ms] Running Gradle task 'assembleRelease'...
+[   +3 ms] Using gradle from /Users/sanjaypopuri/AndroidStudioProjects/drum_kit/android/gradlew.
+[   +1 ms] /Users/sanjaypopuri/AndroidStudioProjects/drum_kit/android/gradlew mode: 33261 rwxr-xr-x.
+[ +699 ms] executing: /usr/bin/plutil -convert json -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +11 ms] Exit code 0 from: /usr/bin/plutil -convert json -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] {"CFBundleName":"Android Studio","JVMOptions":{"ClassPath":"$APP_PACKAGE\/Contents\/lib\/bootstrap.jar:$APP_PACKAGE\/Contents\/lib\/extensions.jar:$APP_PACKAGE\/Contents\/lib\/util.jar:$APP_PACKAGE\/Contents\/lib\/jdom.jar:$APP_PACKAGE\/Contents\/lib\/log4j.jar:$APP_PACKAGE\/Contents\/lib\/trove4j.jar:$APP_PACKAGE\/Contents\/lib\/jna.jar","JVMVersion":"1.8*,1.8+","MainClass":"com.intellij.idea.Main","Properties":{"idea.paths.selector":"AndroidStudio4.1","idea.executable":"studio","idea.platform.prefix":"AndroidStudio","idea.vendor.name":"Google","idea.home.path":"$APP_PACKAGE\/Contents"}},"NSDesktopFolderUsageDescription":"An application in Android Studio requests access to the user's Desktop folder.","LSArchitecturePriority":["x86_64"],"CFBundleVersion":"AI-201.8743.12.41.7199119","CFBundleDevelopmentRegion":"English","NSCameraUsageDescription":"An application in Android Studio requests access to the device's camera.","CFBundleDocumentTypes":[{"CFBundleTypeName":"Android Studio Project File","CFBundleTypeExtensions":["ipr"],"CFBundleTypeRole":"Editor","CFBundleTypeIconFile":"studio.icns"},{"CFBundleTypeName":"All documents","CFBundleTypeExtensions":["*"],"CFBundleTypeOSTypes":["****"],"CFBundleTypeRole":"Editor","LSTypeIsPackage":false}],"NSSupportsAutomaticGraphicsSwitching":true,"CFBundlePackageType":"APPL","CFBundleIconFile":"studio.icns","NSHighResolutionCapable":true,"CFBundleShortVersionString":"4.1","NSMicrophoneUsageDescription":"An application in Android Studio requests access to the device's microphone.","CFBundleInfoDictionaryVersion":"6.0","CFBundleExecutable":"studio","NSLocationUsageDescription":"An application in Android Studio requests access to the user's location information.","LSRequiresNativeExecution":"YES","CFBundleURLTypes":[{"CFBundleTypeRole":"Editor","CFBundleURLName":"Stacktrace","CFBundleURLSchemes":["idea"]}],"CFBundleIdentifier":"com.google.android.studio","LSApplicationCategoryType":"public.app-category.developer-tools","CFBundleSignature":"????","LSMinimumSystemVersion":"10.8","NSDocumentsFolderUsageDescription":"An application in Android Studio requests access to the user's Documents folder.","NSDownloadsFolderUsageDescription":"An application in Android Studio requests access to the user's Downloads folder.","NSNetworkVolumesUsageDescription":"An application in Android Studio requests access to files on a network volume.","CFBundleGetInfoString":"Android Studio 4.1, build AI-201.8743.12.41.7199119. Copyright JetBrains s.r.o., (c) 2000-2021","NSRemovableVolumesUsageDescription":"An application in Android Studio requests access to files on a removable volume."}
+[   +3 ms] executing: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java -version
+[  +69 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java -version
+[        ] openjdk version "1.8.0_242-release"
+           OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6915495)
+           OpenJDK 64-Bit Server VM (build 25.242-b3-6915495, mixed mode)
+[   +2 ms] executing: [/Users/sanjaypopuri/AndroidStudioProjects/drum_kit/android/] /Users/sanjaypopuri/AndroidStudioProjects/drum_kit/android/gradlew -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +510 ms] Welcome to Gradle 6.7!
+[        ] Here are the highlights of this release:
+[        ]  - File system watching is ready for production use
+[        ]  - Declare the version of Java your build requires
+[        ]  - Java 15 support
+[        ] For more details see https://docs.gradle.org/6.7/release-notes.html
+[+2585 ms] > Task :app:compileFlutterBuildRelease
+[        ] [  +78 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] [  +39 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] [   +2 ms] adc687823a831bbebe28bdccfac1a628ca621513
+[        ] [        ] executing: [/Users/sanjaypopuri/Developer/flutter/] git tag --points-at adc687823a831bbebe28bdccfac1a628ca621513
+[        ] [  +15 ms] Exit code 0 from: git tag --points-at adc687823a831bbebe28bdccfac1a628ca621513
+[        ] [        ] 2.0.5
+[        ] [  +40 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [   +9 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{u}
+[        ] [        ] origin/stable
+[        ] [        ] executing: [/Users/sanjaypopuri/Developer/flutter/] git ls-remote --get-url origin
+[        ] [   +9 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] [        ] https://github.com/flutter/flutter.git
+[        ] [  +43 ms] executing: [/Users/sanjaypopuri/Developer/flutter/] git rev-parse --abbrev-ref HEAD
+[        ] [   +9 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] [        ] stable
+[        ] [  +39 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +47 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +68 ms] Initializing file store
+[        ] [   +7 ms] Done initializing file store
+[        ] [  +69 ms] Skipping target: gen_localizations
+[        ] [ +625 ms] Skipping target: kernel_snapshot
+[        ] [  +28 ms] Skipping target: android_aot_release_android-arm
+[        ] [   +1 ms] aot_android_asset_bundle: Starting due to {}
+[        ] [  +32 ms] Skipping target: android_aot_release_android-arm64
+[        ] [  +22 ms] Skipping target: android_aot_release_android-x64
+[        ] [ +127 ms] Manifest contained wildcard assets. Inserting missing file into build graph to force rerun. for more information see #56466.
+[        ] [  +33 ms] Running command: /Users/sanjaypopuri/Developer/flutter/bin/cache/dart-sdk/bin/dart --disable-dart-dev /Users/sanjaypopuri/Developer/flutter/bin/cache/artifacts/engine/darwin-x64/const_finder.dart.snapshot --kernel-file /Users/sanjaypopuri/AndroidStudioProjects/drum_kit/.dart_tool/flutter_build/d91faa2eddd061c8de52f2e56091e3b7/app.dill --class-library-uri package:flutter/src/widgets/icon_data.dart --class-name IconData
+[ +190 ms] [ +630 ms] Persisting file store
+[        ] [   +7 ms] Done persisting file store
+[        ] [  +16 ms] "flutter assemble" took 1,736ms.
+[        ] [   +1 ms] ensureAnalyticsSent: 0ms
+[        ] [   +2 ms] Running shutdown hooks
+[        ] [        ] Shutdown hooks complete
+[        ] [        ] exiting with code 1
+[        ] > Task :app:compileFlutterBuildRelease FAILED
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+[        ] Use '--warning-mode all' to show the individual deprecation warnings.
+[        ] See https://docs.gradle.org/6.7/userguide/command_line_interface.html#sec:command_line_warnings
+[        ] 1 actionable task: 1 executed
+[ +301 ms] Running Gradle task 'assembleRelease'... (completed in 4.5s)
+[   +6 ms] "flutter apk" took 5,759ms.
+[ +280 ms] ensureAnalyticsSent: 257ms
+[   +2 ms] Running shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 1
